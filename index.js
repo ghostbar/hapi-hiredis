@@ -34,6 +34,8 @@ exports.register = function (plugin, opts, next) {
   });
 
   plugin.expose('client', client);
+  plugin.expose('library', redis);
+
   plugin.bind({ redis: client });
 };
 
