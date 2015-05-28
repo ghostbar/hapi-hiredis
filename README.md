@@ -9,6 +9,11 @@ Why use this instead of simple hapi-redis?
 + `hiredis` parser is way faster than the plain javascript parser that comes by default with the node `redis` module.
 + Support for URLs. At least for me that's a major point, since I store all the data for connections in a simple URL string.
 
+Install
+-------
+
+    npm install --save hiredis hapi-hiredis
+
 Register plugin
 ---------------
 
