@@ -49,6 +49,8 @@ The object returned by `redis.createClient` is exposed on `server.plugins['hapi-
       }
     });
 
+If for any reason you need to use the `redis` library, then you can use it from `server.plugins['hapi-hiredis'].library`.
+
 License
 -------
 
