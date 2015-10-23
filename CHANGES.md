@@ -1,3 +1,7 @@
+v2.0.1
+------
++ `peerDependencies` compatible with `hapi >= 8`
+
 v2.0.0
 ------
 
