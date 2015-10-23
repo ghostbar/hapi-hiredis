@@ -25,11 +25,11 @@
   "dependencies": {
   },
   "devDependencies": {
-    "hapi": "^8.0.0",
+    "hapi": ">=8.0.0",
     "mocha": "^2.1.0"
   },
   "peerDependencies": {
-    "hapi": "^8.0.0",
+    "hapi": ">=8.0.0",
     "hiredis": "^0.1.17",
     "redis": "^0.12.1"
   }
